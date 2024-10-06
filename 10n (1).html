@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=1024">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Notes Techie Class10 Notes </title>
+  <meta name="title" content="Notes Techie Class 10 Notes">
+  <meta name="description" content="This is an education html template made by codewithsadee">
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./ic/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./ic/logo.jpg" width="50" height="50" alt=" logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="162" height="50" alt=" logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section blog has-bg-image" id="blog" aria-label="blog"
+        style="background-image: url('./assets/images/blog-bg.svg')">
+        <div class="container">
+
+          <h2 class="h2">Class 10 Notes </h2>
+          <br>
+
+<input type="text" id="searchInput" placeholder="Type Your Chapter Name...">
+
+<div class="button-container">
+  <button class="category-btn" onclick="filterCards('all')">All</button>
+  <button class="category-btn" data-category="I.T" onclick="filterCards('I.T')">I.T</button>
+  <button class="category-btn" data-category="S.ST" onclick="filterCards('S.ST')">S.ST</button>
+  <button class="category-btn" data-category="Science" onclick="filterCards('Science')">Science</button>
+  <button class="category-btn" data-category="Science" onclick="filterCards('Hindi')">Hindi</button>
+  <button class="category-btn" data-category="Science" onclick="filterCards('English')">English</button>
+ <!-- Added All button -->
+</div>
+
+<div class="grid-container">
+  <ul class="grid-list" id="blogList">
+    <li>
+      <div class="blog-card" data-category="I.T" data-title="Communication Skills">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="Communication Skills" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1FKYl6STV447GhgSeC44qGUhej6lM-ZQN/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1FKYl6STV447GhgSeC44qGUhej6lM-ZQN/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1FKYl6STV447GhgSeC44qGUhej6lM-ZQN/view?usp=drivesdk" target="_blank" class="card-title">Communication Skills</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">IT 01</span>
+            </li>
+          </ul>
+          <p class="card-text">
+            Contributor:- Admin
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="blog-card" data-category="I.T" data-title="Self Management Skills">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="Communication Skills" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1FKBRY6lqvxAfVqSjDhmaHSwJXlEgXdvy/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1FKBRY6lqvxAfVqSjDhmaHSwJXlEgXdvy/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1FKBRY6lqvxAfVqSjDhmaHSwJXlEgXdvy/view?usp=drivesdk" target="_blank" class="card-title">Self Management Skills</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">IT 02</span>
+            </li>
+          </ul>
+          <p class="card-text">
+            Contributor:- Admin
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="blog-card" data-category="S.ST" data-title="The Rise Of Nationalism In Europe">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="logo" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1PRhcOA0z1uns4eEVzUpwzjGidcoizVG-/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1PRhcOA0z1uns4eEVzUpwzjGidcoizVG-/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1PRhcOA0z1uns4eEVzUpwzjGidcoizVG-/view?usp=drivesdk" target="_blank" class="card-title">The Rise Of Nationalism In Europe</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Hi 01</span>
+            </li>
+          </ul>
+          <p class="card-text">
+            Contributor:- Adi@01
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="blog-card" data-category="S.ST" data-title="Nationalism In India">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="logo" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1PUbW17ObWhL5EsSaAjUePUzxfP465yoD/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1PUbW17ObWhL5EsSaAjUePUzxfP465yoD/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1PUbW17ObWhL5EsSaAjUePUzxfP465yoD/view?usp=drivesdk" target="_blank" class="card-title">Nationalism In India</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Hi 02</span>
+            </li>
+          </ul>
+          <p class="card-text">
+Contributor:- Adi@01
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="blog-card" data-category="S.ST" data-title="Print Culture And The Modern World">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="logo" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1P_5qOgw2nl--JdEBdeb7p2CEzWmNRvVk/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1P_5qOgw2nl--JdEBdeb7p2CEzWmNRvVk/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1P_5qOgw2nl--JdEBdeb7p2CEzWmNRvVk/view?usp=drivesdk" target="_blank" class="card-title">Print Culture And The Modern World</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Hi 03</span>
+            </li>
+          </ul>
+          <p class="card-text">
+            Contributor:- Adi@01
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="blog-card" data-category="S.ST" data-title="Federalism">
+        <figure class="card-banner img-holder has-after" style="--width: 100%; --height: auto;">
+          <img src="./ic/logo.jpg" width="100%" height="auto" loading="lazy" alt="logo" class="img-cover">
+        </figure>
+        <div class="card-content">
+          <a href="https://drive.google.com/file/d/1STZzwA0FXlpjAfzmTiT2STkmQ2zQKYQX/view?usp=drivesdk" target="_blank" class="card-btn" aria-label="read more">
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <a href="https://drive.google.com/file/d/1STZzwA0FXlpjAfzmTiT2STkmQ2zQKYQX/view?usp=drivesdk" target="_blank" class="card-subtitle">#Davian</a>
+          <h3 class="h3">
+            <a href="https://drive.google.com/file/d/1STZzwA0FXlpjAfzmTiT2STkmQ2zQKYQX/view?usp=drivesdk" target="_blank" class="card-title">Federalism</a>
+          </h3>
+          <ul class="card-meta-list">
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">30/09/2024</span>
+            </li>
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Ps 03</span>
+            </li>
+          </ul>
+          <p class="card-text">
+            Contributor:- Admin
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+          <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+            class="shape blog-shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./ic/logo.jpg" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <p class="footer-brand-text">
+This Website Is For The Students Of Class 8,9 And 10.Here, You Can Access The Notes,PYQs and Important Questions And Updated Syllabus. This All Website is By Programmer Deepak..
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">Saket Vihar,Anishabad,Patna,Bihar-800002</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+919334949549" class="footer-link">+919334949549</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:cytolearners@gmail.com" class="footer-link">cytolearners@gmail.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="contributor.html" target="_blank" class="footer-link">Contributors</a>
+          </li>
+
+          <li>
+            <a href="contribution.html" target="_blank" class="footer-link">Contribute</a>
+          </li>
+
+          <li>
+            <a href="index.html" target="_blank" class="footer-link">Home Page</a>
+          </li>
+
+          <li>
+            <a href="contact.html" target="_blank" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="10p.html" target="_blank" class="footer-link">Class 10 PYQs</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="https://developerdeepak.free.nf" target="_blank" class="copyright-link"> Programmer Deepak</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./ic/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
